@@ -29,7 +29,6 @@ public class LoginPage {
 
 //---------------------------------------------------------------------------------------------------------------
     //ELIF
-
     @FindBy(xpath = "//input[@id=\"login\"]")
     public WebElement eMailAdd;
     @FindBy(xpath = "//input[@id=\"password\"]")

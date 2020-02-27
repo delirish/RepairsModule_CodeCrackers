@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/",
         glue = "step_definitions",
         dryRun = false,
-        tags = ""   // we can pass more than one tag, ex: tags = "@smokeTest, @regressionTest"
+        tags = "@smokeTest1,@smokeTest2,@smokeTest3"   // we can pass more than one tag, ex: tags = "@smokeTest, @regressionTest"
 )
 
 
