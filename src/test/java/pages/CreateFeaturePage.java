@@ -10,6 +10,5 @@ public class CreateFeaturePage {
         PageFactory.initElements(Driver.getDriver(),this);
     }@FindBy(xpath = "//button[@class=\"btn btn-primary btn-sm o_list_button_add\"]")
     public WebElement createFeatureButton;
-    @FindBy(xpath = "//button[@class=\"btn btn-primary btn-sm o_list_button_add\"]")
-    public WebElement createFeatureButton1;
+
 }
