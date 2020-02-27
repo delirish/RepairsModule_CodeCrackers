@@ -10,69 +10,67 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.step({
+  "name": "User is on Landing page",
+  "keyword": "Given "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 formatter.scenario({
-  "name": "Customer Dropdown Verification",
+  "name": "Current location \"Create and edit\" verification",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@smokeTest1"
+      "name": "@create"
     }
   ]
 });
 formatter.step({
-  "name": "User is logged in to briteErp Login Page",
-  "keyword": "Given "
+  "name": "User click to repairs module",
+  "keyword": "When "
 });
-formatter.match({
-  "location": "CustomerField_StepDefs.user_is_logged_in_to_briteErp_Login_Page()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "User clicks to Repair module on Landing Page",
+  "name": "User click create button",
   "keyword": "And "
 });
-formatter.match({
-  "location": "CustomerField_StepDefs.user_clicks_to_Repair_module_on_Landing_Page()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "User click to Create button",
+  "name": "User click current location box",
   "keyword": "And "
 });
-formatter.match({
-  "location": "CustomerField_StepDefs.user_click_to_Create_button()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "User types \"elif\" to Customer field",
+  "name": "User select create and edit from dropdown list",
   "keyword": "And "
 });
-formatter.match({
-  "location": "CustomerField_StepDefs.user_types_to_Customer_field(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "User should see \"elif\" in the dropdown",
+  "name": "User sees pop-up page",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "CustomerField_StepDefs.user_should_see_in_the_dropdown(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.after({
-  "status": "passed"
+  "status": "skipped"
 });
 });
