@@ -17,8 +17,8 @@ public class CreateNewOrderPage {
 //---------------------------------------------------------------------------------------------------------------
     //ELIF
 
-    @FindBy(xpath = "//label[@for=\"o_field_input_108\"]")
-    public WebElement customerField;
+    @FindBy(xpath = "(//input[@class=\"o_input ui-autocomplete-input\"])[4]")
+    public WebElement customerField1;
 
     @FindBy(xpath = "//*[@id=\"modal_135\"]/div/div/div[2]/input")
     public WebElement customName;

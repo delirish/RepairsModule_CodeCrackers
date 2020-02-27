@@ -178,14 +178,11 @@ public class RepairsModulePage {
 
 //---------------------------------------------------------------------------------------------------------------
     //ELIF
-
-    @FindBy(xpath = "//*[@data-menu=\"535\"]/span")
+ @FindBy(xpath = "//*[@data-menu=\"535\"]/span")
     public WebElement repairButton;
 
-//    @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div/button[1]")
-//    public WebElement createButton;                                       -***ELEMENT WITH THIS NAME ALREADY EXISTS ON THIS PAGE, PLEASE RENAME OR USE EXISTING***
-
-    //(//div[@class='o_field_widget o_field_many2one']//input[@class='o_input ui-autocomplete-input'])[1]
+ @FindBy(xpath = "//button[@class=\"btn btn-primary btn-sm o_list_button_add\"]")
+   public WebElement createFeatureButton;
 
 
 
