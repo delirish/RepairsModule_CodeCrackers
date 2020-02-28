@@ -3,7 +3,7 @@ Feature: Repairs Module Verification
 
   Background: Given User is on Landing page
     Given User is on Landing page
-  @create
+  @smoke
   Scenario: Current location "Create and edit" verification
   When User click to repairs module
   And User click create button
@@ -12,5 +12,31 @@ Feature: Repairs Module Verification
   Then User sees pop-up page
 
 #Put your scenarios/scenario outlines below:
-  @smokeTest1
+  @smoke
+  Scenario: Customer Dropdown Verification
+    Given User is logged in to briteErp Login Page
+    And User clicks to Repair module on Landing Page
+    And User click to Create button
+    And User types "elif" to Customer field
+    Then User should see "elif" in the dropdown
+
+  @smoke
+  Scenario:Customer : Search header verification
+    Given User is logged in to briteErp Login Page
+    And User clicks to Repair module on Landing Page
+    And User click to Create button
+    And User cliks to customer field
+    And User cliks Search more field
+    Then User should see Search:customer header
+
+  @smoke
+  Scenario:
+    Given User is logged in to briteErp Login Page
+    And User clicks to Repair module on Landing Page
+    And User click to Create button
+    And User cliks to customer field
+    And User clicks create and edit field
+    And User types elif in to name box
+    And User clicks save button
+    Then User should see elif in the customer field
 
