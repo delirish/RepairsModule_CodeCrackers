@@ -22,7 +22,7 @@ Feature: Repairs Module Verification
     Then User should see Search:customer header
 
 
-  Scenario:
+  Scenario:Create and edit functionality verification
 
     And User clicks to Repair module on Landing Page
     And User click to Create button
