@@ -3,13 +3,6 @@ Feature: Repairs Module Verification
 
   Background: Given User is on Landing page
     Given User is on Landing page
-  @create
-  Scenario: Current location "Create and edit" verification
-  When User click to repairs module
-  And User click create button
-  And User click current location box
-  And User select create and edit from dropdown list
-  Then User sees pop-up page
 
 #Put your scenarios/scenario outlines below:
   @smokeTest1
@@ -39,4 +32,20 @@ Feature: Repairs Module Verification
     And User types elif in to name box
     And User clicks save button
     Then User should see elif in the customer field
+
+  @currentLocationCreateAndEdit
+  Scenario: Current location "Create and edit" verification
+    When User click to repairs module
+    And User click create button
+    And User click current location box
+    And User select create and edit from dropdown list
+    Then User sees pop-up page
+
+  @currentLocationSearchMore
+  Scenario: Current location "Search more" verification
+    When User click to repairs module
+    And User click create button
+    And User click current location box
+    And User select search more from dropdown list
+    Then User see pop up page
 
