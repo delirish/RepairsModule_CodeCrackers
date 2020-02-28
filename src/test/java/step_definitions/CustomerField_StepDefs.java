@@ -20,8 +20,6 @@ public class CustomerField_StepDefs {
     LandingPage landingPage = new LandingPage();
     CreateFeaturePage createFeaturePage = new CreateFeaturePage();
     CustomerFieldPage customerFieldPage = new CustomerFieldPage();
-    RepairsModulePage repairsModulePage = new RepairsModulePage();
-    Faker faker = new Faker();
     WebDriver driver;
 
     @Given("User is logged in to briteErp Login Page")
@@ -79,7 +77,7 @@ public class CustomerField_StepDefs {
     @Given("User cliks Search more field")
     public void user_cliks_Search_more_field() throws InterruptedException {
         customerFieldPage.searchMore.click();
-        Thread.sleep(3000);
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
     }
 
@@ -125,5 +123,12 @@ public class CustomerField_StepDefs {
 
     }
 
-    
+
+
+
+
+
+
+
+
 }
