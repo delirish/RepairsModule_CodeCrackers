@@ -1,4 +1,268 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/filterFunctionality.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/customerFunctionality.feature");
+formatter.feature({
+  "name": "Repairs Module Verification",
+  "description": "  Agile story: As a User I should be able to access repairs list, search for repair, create/edit/delete a repair",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is logged in to briteErp Login Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_is_logged_in_to_briteErp_Login_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Customer Dropdown Verification",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
+});
+formatter.step({
+  "name": "User clicks to Repair module on Landing Page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_clicks_to_Repair_module_on_Landing_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User click to Create button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_click_to_Create_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User types \"elif\" to Customer field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_types_to_Customer_field(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should see \"elif\" in the dropdown",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_should_see_in_the_dropdown(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is logged in to briteErp Login Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_is_logged_in_to_briteErp_Login_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Customer : Search header verification",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
+});
+formatter.step({
+  "name": "User clicks to Repair module on Landing Page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_clicks_to_Repair_module_on_Landing_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User click to Create button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_click_to_Create_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User cliks to customer field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_cliks_to_customer_field()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User cliks Search more field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_cliks_Search_more_field()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should see Search:customer header",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_should_see_Search_customer_header()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is logged in to briteErp Login Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_is_logged_in_to_briteErp_Login_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
+});
+formatter.step({
+  "name": "User clicks to Repair module on Landing Page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_clicks_to_Repair_module_on_Landing_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User click to Create button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_click_to_Create_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User cliks to customer field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_cliks_to_customer_field()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User clicks create and edit field",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_clicks_create_and_edit_field()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User types elif in to name box",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_types_elif_in_to_name_box()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User clicks save button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_clicks_save_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should see elif in the customer field",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_should_see_elif_in_the_customer_field()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.uri("src/test/resources/features/filterFunctionality.feature");
 formatter.feature({
   "name": "Filter Functionality for Search Repair Orders Verification",
   "description": "  Agile story: As a User I should be able to filter the repair orders",
@@ -181,7 +445,8 @@ formatter.match({
   "location": "FilterFunctionality_StepDefs.user_clicks_Filters_button()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//button[@data-toggle\u003d\u0027dropdown\u0027])[3]\"}\n  (Session info: chrome\u003d80.0.3987.122)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Korays-MacBook-Pro-2.local\u0027, ip: \u00272603:300a:16aa:1000:0:0:0:8814%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.6\u0027, java.version: \u002711.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/wc/49yvv7391gb...}, goog:chromeOptions: {debuggerAddress: localhost:50092}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: ebff68f13d03600b7f5216a9babdb136\n*** Element info: {Using\u003dxpath, value\u003d(//button[@data-toggle\u003d\u0027dropdown\u0027])[3]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)\n\tat step_definitions.FilterFunctionality_StepDefs.user_clicks_Filters_button(FilterFunctionality_StepDefs.java:56)\n\tat ✽.User clicks Filters button(src/test/resources/features/filterFunctionality.feature:23)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User selects Confirmed filter",
@@ -191,7 +456,7 @@ formatter.match({
   "location": "FilterFunctionality_StepDefs.user_selects_Confirmed_filter()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should be able to see only corresponding to Confirmed filter repair orders in the list",
@@ -201,7 +466,7 @@ formatter.match({
   "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_only_corresponding_to_Confirmed_filter_repair_orders_in_the_list()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should see Confirmed filter in the Search box",
@@ -211,7 +476,7 @@ formatter.match({
   "location": "FilterFunctionality_StepDefs.user_should_see_Confirmed_filter_in_the_Search_box()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should be able to see Confirmed filter as selected in Filters dropdown menu",
@@ -221,7 +486,7 @@ formatter.match({
   "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_Confirmed_filter_as_selected_in_Filters_dropdown_menu()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User deselects Confirmed filter",
@@ -231,7 +496,7 @@ formatter.match({
   "location": "FilterFunctionality_StepDefs.user_deselects_Confirmed_filter()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should be able to see all repair orders in the list",
@@ -241,7 +506,7 @@ formatter.match({
   "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_all_repair_orders_in_the_list()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should not see Confirmed filter in the Search box",
@@ -251,7 +516,7 @@ formatter.match({
   "location": "FilterFunctionality_StepDefs.user_should_not_see_Confirmed_filter_in_the_Search_box()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should be able to see Confirmed filter as deselected in Filters dropdown menu",
@@ -261,8 +526,9 @@ formatter.match({
   "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_Confirmed_filter_as_deselected_in_Filters_dropdown_menu()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
+formatter.embedding("image/png", "embedded0.png");
 formatter.after({
   "status": "passed"
 });
@@ -401,7 +667,12 @@ formatter.uri("src/test/resources/features/productToRepair.feature");
 formatter.feature({
   "name": "Product to repair feature",
   "description": "  Agile story: As a User I should be able to access repairs list, search for repair, create/edit/delete a repair",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
 });
 formatter.scenario({
   "name": "",
@@ -773,7 +1044,8 @@ formatter.match({
   "location": "CustomerField_StepDefs.user_click_to_Create_button()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class\u003d\"btn btn-primary btn-sm o_list_button_add\"]\"}\n  (Session info: chrome\u003d80.0.3987.122)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Korays-MacBook-Pro-2.local\u0027, ip: \u00272603:300a:16aa:1000:0:0:0:8814%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.6\u0027, java.version: \u002711.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/wc/49yvv7391gb...}, goog:chromeOptions: {debuggerAddress: localhost:50092}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: ebff68f13d03600b7f5216a9babdb136\n*** Element info: {Using\u003dxpath, value\u003d//button[@class\u003d\"btn btn-primary btn-sm o_list_button_add\"]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\n\tat step_definitions.CustomerField_StepDefs.user_click_to_Create_button(CustomerField_StepDefs.java:46)\n\tat ✽.User click to Create button(src/test/resources/features/repairsModule.feature:27)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User cliks to customer field",
@@ -783,7 +1055,7 @@ formatter.match({
   "location": "CustomerField_StepDefs.user_cliks_to_customer_field()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User cliks Search more field",
@@ -793,8 +1065,7 @@ formatter.match({
   "location": "CustomerField_StepDefs.user_cliks_Search_more_field()"
 });
 formatter.result({
-  "error_message": "java.lang.NullPointerException\n\tat step_definitions.CustomerField_StepDefs.user_cliks_Search_more_field(CustomerField_StepDefs.java:80)\n\tat ✽.User cliks Search more field(src/test/resources/features/repairsModule.feature:29)\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should see Search:customer header",
@@ -806,7 +1077,7 @@ formatter.match({
 formatter.result({
   "status": "skipped"
 });
-formatter.embedding("image/png", "embedded0.png");
+formatter.embedding("image/png", "embedded1.png");
 formatter.after({
   "status": "passed"
 });
@@ -846,7 +1117,8 @@ formatter.match({
   "location": "CustomerField_StepDefs.user_is_logged_in_to_briteErp_Login_Page()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id\u003d\"login\"]\"}\n  (Session info: chrome\u003d80.0.3987.122)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Korays-MacBook-Pro-2.local\u0027, ip: \u00272603:300a:16aa:1000:0:0:0:8814%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.12.6\u0027, java.version: \u002711.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/wc/49yvv7391gb...}, goog:chromeOptions: {debuggerAddress: localhost:50092}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: ebff68f13d03600b7f5216a9babdb136\n*** Element info: {Using\u003dxpath, value\u003d//input[@id\u003d\"login\"]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\n\tat step_definitions.CustomerField_StepDefs.user_is_logged_in_to_briteErp_Login_Page(CustomerField_StepDefs.java:28)\n\tat ✽.User is logged in to briteErp Login Page(src/test/resources/features/repairsModule.feature:34)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User clicks to Repair module on Landing Page",
@@ -856,7 +1128,7 @@ formatter.match({
   "location": "CustomerField_StepDefs.user_clicks_to_Repair_module_on_Landing_Page()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User click to Create button",
@@ -866,7 +1138,7 @@ formatter.match({
   "location": "CustomerField_StepDefs.user_click_to_Create_button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User cliks to customer field",
@@ -876,7 +1148,7 @@ formatter.match({
   "location": "CustomerField_StepDefs.user_cliks_to_customer_field()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User clicks create and edit field",
@@ -886,7 +1158,7 @@ formatter.match({
   "location": "CustomerField_StepDefs.user_clicks_create_and_edit_field()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User types elif in to name box",
@@ -896,7 +1168,7 @@ formatter.match({
   "location": "CustomerField_StepDefs.user_types_elif_in_to_name_box()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User clicks save button",
@@ -906,7 +1178,7 @@ formatter.match({
   "location": "CustomerField_StepDefs.user_clicks_save_button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should see elif in the customer field",
@@ -916,8 +1188,9 @@ formatter.match({
   "location": "CustomerField_StepDefs.user_should_see_elif_in_the_customer_field()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
+formatter.embedding("image/png", "embedded2.png");
 formatter.after({
   "status": "passed"
 });
