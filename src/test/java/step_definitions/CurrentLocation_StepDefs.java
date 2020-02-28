@@ -11,7 +11,7 @@ import pages.RepairsModulePage;
 import utilities.Config;
 import utilities.Driver;
 
-public class CurrentLocation {
+public class CurrentLocation_StepDefs {
     LoginPage loginPage = new LoginPage();
     LandingPage landingPage = new LandingPage();
     RepairsModulePage repairsModulePage = new RepairsModulePage();
@@ -32,8 +32,9 @@ public class CurrentLocation {
 
     @When("User click to repairs module")
     public void user_click_to_repairs_module() throws InterruptedException {
-        landingPage.repairsModuleButton.click();
         Thread.sleep(5000);
+        landingPage.repairsModuleButton.click();
+        Thread.sleep(3000);
     }
 
     @When("User click create button")
@@ -62,5 +63,20 @@ public class CurrentLocation {
 
 
     }
+
+    @When("User select search more from dropdown list")
+    public void user_select_search_more_from_dropdown_list() {
+        repairsModulePage.currentLocationSearchMore.click();
+
+    }
+
+
+    @Then("User sees header Search: Delivery Location")
+    public void user_sees_header_Search_Delivery_Location() {
+        Assert.assertTrue(repairsModulePage.currentLocationSearchMoreSearchPopUp.isDisplayed());
+    }
+
+
+
 
 }
