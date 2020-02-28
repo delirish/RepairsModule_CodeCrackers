@@ -1,16 +1,15 @@
 package step_definitions;
 
+import com.github.javafaker.Faker;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.CreateFeaturePage;
-import pages.CustomerFieldPage;
-import pages.LandingPage;
-import pages.LoginPage;
+import pages.*;
 import utilities.Config;
 import utilities.Driver;
 
@@ -123,6 +122,8 @@ public class CustomerField_StepDefs {
         Assert.assertTrue("it's not displayed",customerFieldPage.customerField1.isDisplayed());
 
     }
+
+
 
 
 

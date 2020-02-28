@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
         plugin = "html:target/cucumber-reports",
         features = "src/test/resources/features/",
         glue = "step_definitions",
-        dryRun = true,
-        tags = "@create"   // we can pass more than one tag, ex: tags = "@smokeTest, @regressionTest"
+        dryRun = false,
+        tags = "@smokeTest1,@smokeTest2,@smokeTest3"   // we can pass more than one tag, ex: tags = "@smokeTest, @regressionTest"
 )
 
 
