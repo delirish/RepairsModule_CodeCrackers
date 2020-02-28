@@ -1,3 +1,7 @@
+Feature:Product to repair feature
+  Agile story: As a User I should be able to access repairs list, search for repair, create/edit/delete a repair
+
+
 @smokeTest4
 Scenario:
 Given User is logged in to briteErp Login Page
