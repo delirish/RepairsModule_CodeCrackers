@@ -13,12 +13,12 @@ formatter.before({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Customer Dropdown Verification",
+  "name": "",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@smokeTest1"
+      "name": "@smokeTest4"
     }
   ]
 });
@@ -53,21 +53,101 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User types \"elif\" to Customer field",
+  "name": "User click to ProductToRepair button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CustomerField_StepDefs.user_types_to_Customer_field(String)"
+  "location": "CustomerField_StepDefs.user_click_to_ProductToRepair_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User should see \"elif\" in the dropdown",
+  "name": "User click to SearchMore button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_click_to_SearchMore_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to see a list of products",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_should_be_able_to_see_a_list_of_products()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User click to Create/Edit button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_click_to_Create_Edit_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should see grey text \"Product name\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_should_see_grey_text(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to enter his name",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_should_be_able_to_enter_his_name()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to choose a ProductType",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_should_be_able_to_choose_a_ProductType()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to enter an InternalReference",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_should_be_able_to_enter_an_InternalReference()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to enter a Barecode",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CustomerField_StepDefs.user_should_be_able_to_enter_a_Barecode()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to choose a Category",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CustomerField_StepDefs.user_should_see_in_the_dropdown(String)"
+  "location": "CustomerField_StepDefs.user_should_be_able_to_choose_a_Category()"
 });
 formatter.result({
   "status": "passed"
