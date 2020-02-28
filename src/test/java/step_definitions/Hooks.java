@@ -31,8 +31,10 @@ public class Hooks {
             scenario.embed(screenshot, "image/png");
 
         }
+     //   Driver.getDriver().close();
+
     }
-    
+
 
 
 }
