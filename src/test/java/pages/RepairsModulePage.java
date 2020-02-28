@@ -138,7 +138,7 @@ public class RepairsModulePage {
 
 //    @FindBy(xpath = "//button[@class='btn btn-primary btn-sm o_list_button_add']")
 //    public WebElement createButton;                            -***ELEMENT WITH THIS NAME ALREADY EXISTS ON THIS PAGE, PLEASE RENAME OR USE EXISTING***
-    @FindBy(xpath = "//input[@id='o_field_input_104']")
+    @FindBy(xpath = "//input[@id='o_field_input_78']")
     public WebElement productRepairButton;
 
     @FindBy(xpath = "//ul[@id='ui-id-3']")
@@ -148,25 +148,31 @@ public class RepairsModulePage {
     public WebElement searchMoreButton;
 
     @FindBy(xpath = "//button[@class='btn btn-sm btn-primary']")
-    WebElement createButton2;
+    public WebElement createButtonEd;
+
+    @FindBy(xpath = "//button[@class='close']")
+    public WebElement closeSearchMorePage;
+
+    @FindBy(xpath = "//ul/li/a[.='Create and Edit...']")
+    public WebElement createAndEditButton;
 
     @FindBy(xpath = "//input[@placeholder='Product Name']")
-    WebElement greyText;
+    public WebElement greyText;
 
-    @FindBy(id = "o_field_input_496")
-    WebElement inputProductName;
+    @FindBy(id = "o_field_input_470")
+    public WebElement inputProductName;
 
-    @FindBy(id = "o_field_input_503")
-    WebElement productTypeButton;
+    @FindBy(id = "o_field_input_477")
+    public WebElement productTypeButton;
 
-    @FindBy(id = "o_field_input_504")
-    WebElement internalReferenceTextBox;
+    @FindBy(id = "o_field_input_478")
+    public WebElement internalReferenceTextBox;
 
-    @FindBy(id = "o_field_input_505")
-    WebElement bareCodeBoxText;
+    @FindBy(id = "o_field_input_479")
+    public WebElement bareCodeBoxText;
 
-    @FindBy(id = "o_field_input_506")
-    List<WebElement> categoryList;
+    @FindBy(id = "o_field_input_480")
+    public List<WebElement> categoryList;
 
     @FindBy(xpath = "//input[@id='o_field_input_507']")
     public WebElement salePriceBox;
