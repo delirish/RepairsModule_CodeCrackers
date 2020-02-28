@@ -96,8 +96,8 @@ public class RepairsModulePage {
     @FindBy(xpath = "//a[contains(text(),'Create and Edit...')]")
     public WebElement currentLocationCreateAndEdit;
 
-    @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div/button[1]")
-    public WebElement createButton;
+    @FindBy(xpath = "//a[contains(text(),'Search More...')]")
+    public WebElement currentLocationSearchMore;
 
 
 

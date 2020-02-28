@@ -10,6 +10,7 @@ import java.util.List;
 public class CreateNewOrderPage {
 
     public CreateNewOrderPage(){
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
