@@ -77,7 +77,8 @@ public class CustomerField_StepDefs {
     @Given("User cliks Search more field")
     public void user_cliks_Search_more_field() throws InterruptedException {
         customerFieldPage.searchMore.click();
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        Thread.sleep(3000);
 
     }
 
