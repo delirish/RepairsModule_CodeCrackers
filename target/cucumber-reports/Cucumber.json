@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7032310501,
+              "duration": 9431812800,
               "status": "passed"
             },
             "line": 6,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 829235,
+              "duration": 1474499,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 109967687,
+              "duration": 747059499,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3064226924,
+              "duration": 3193972299,
               "status": "passed"
             },
             "line": 10,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 5050661523,
+              "duration": 5171109601,
               "status": "passed"
             },
             "line": 11,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 3081689835,
+              "duration": 3618549900,
               "status": "passed"
             },
             "line": 12,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 3034494153,
+              "duration": 3106916901,
               "status": "passed"
             },
             "line": 13,
@@ -129,9 +129,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ms-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:14a8:4e35:f430:c45%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zq/fr1t2l9x09n...}, goog:chromeOptions: {debuggerAddress: localhost:61745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 152d42584440310a1e5bff0f205a48e5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat step_definitions.CustomerField_StepDefs.user_is_logged_in_to_briteErp_Login_Page(CustomerField_StepDefs.java:27)\n\tat ✽.User is logged in to briteErp Login Page(src/test/resources/features/customerFunctionality.feature:6)\n",
-              "duration": 28964846,
-              "status": "failed"
+              "duration": 8874198900,
+              "status": "passed"
             },
             "line": 6,
             "name": "User is logged in to briteErp Login Page",
@@ -146,7 +145,7 @@
         "before": [
           {
             "result": {
-              "duration": 40851,
+              "duration": 146600,
               "status": "passed"
             },
             "match": {
@@ -161,9 +160,8 @@
         "after": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ms-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:14a8:4e35:f430:c45%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zq/fr1t2l9x09n...}, goog:chromeOptions: {debuggerAddress: localhost:61745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 152d42584440310a1e5bff0f205a48e5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\n\tat step_definitions.Hooks.tearDown(Hooks.java:30)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.TestCase.run(TestCase.java:48)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)\n",
-              "duration": 2077635,
-              "status": "failed"
+              "duration": 676893200,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -175,8 +173,8 @@
         "steps": [
           {
             "result": {
-              "duration": 9021,
-              "status": "skipped"
+              "duration": 3114556900,
+              "status": "passed"
             },
             "line": 18,
             "name": "User clicks to Repair module on Landing Page",
@@ -187,8 +185,8 @@
           },
           {
             "result": {
-              "duration": 5362,
-              "status": "skipped"
+              "duration": 5107578600,
+              "status": "passed"
             },
             "line": 19,
             "name": "User click to Create button",
@@ -199,8 +197,8 @@
           },
           {
             "result": {
-              "duration": 4482,
-              "status": "skipped"
+              "duration": 3154132500,
+              "status": "passed"
             },
             "line": 20,
             "name": "User cliks to customer field",
@@ -211,8 +209,8 @@
           },
           {
             "result": {
-              "duration": 4201,
-              "status": "skipped"
+              "duration": 3107492200,
+              "status": "passed"
             },
             "line": 21,
             "name": "User cliks Search more field",
@@ -223,8 +221,8 @@
           },
           {
             "result": {
-              "duration": 4643,
-              "status": "skipped"
+              "duration": 8082769100,
+              "status": "passed"
             },
             "line": 22,
             "name": "User should see Search:customer header",
@@ -249,9 +247,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ms-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:14a8:4e35:f430:c45%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zq/fr1t2l9x09n...}, goog:chromeOptions: {debuggerAddress: localhost:61745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 152d42584440310a1e5bff0f205a48e5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat step_definitions.CustomerField_StepDefs.user_is_logged_in_to_briteErp_Login_Page(CustomerField_StepDefs.java:27)\n\tat ✽.User is logged in to briteErp Login Page(src/test/resources/features/customerFunctionality.feature:6)\n",
-              "duration": 5175942,
-              "status": "failed"
+              "duration": 8594429599,
+              "status": "passed"
             },
             "line": 6,
             "name": "User is logged in to briteErp Login Page",
@@ -266,7 +263,7 @@
         "before": [
           {
             "result": {
-              "duration": 32440,
+              "duration": 116099,
               "status": "passed"
             },
             "match": {
@@ -281,9 +278,8 @@
         "after": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ms-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:14a8:4e35:f430:c45%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zq/fr1t2l9x09n...}, goog:chromeOptions: {debuggerAddress: localhost:61745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 152d42584440310a1e5bff0f205a48e5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\n\tat step_definitions.Hooks.tearDown(Hooks.java:30)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.TestCase.run(TestCase.java:48)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)\n",
-              "duration": 2988702,
-              "status": "failed"
+              "duration": 610182099,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -295,8 +291,8 @@
         "steps": [
           {
             "result": {
-              "duration": 5806,
-              "status": "skipped"
+              "duration": 3175071700,
+              "status": "passed"
             },
             "line": 27,
             "name": "User clicks to Repair module on Landing Page",
@@ -307,8 +303,8 @@
           },
           {
             "result": {
-              "duration": 8561,
-              "status": "skipped"
+              "duration": 5123136300,
+              "status": "passed"
             },
             "line": 28,
             "name": "User click to Create button",
@@ -319,8 +315,8 @@
           },
           {
             "result": {
-              "duration": 4496,
-              "status": "skipped"
+              "duration": 3156938000,
+              "status": "passed"
             },
             "line": 29,
             "name": "User cliks to customer field",
@@ -331,8 +327,8 @@
           },
           {
             "result": {
-              "duration": 4455,
-              "status": "skipped"
+              "duration": 5122509501,
+              "status": "passed"
             },
             "line": 30,
             "name": "User clicks create and edit field",
@@ -343,8 +339,8 @@
           },
           {
             "result": {
-              "duration": 4164,
-              "status": "skipped"
+              "duration": 3164709600,
+              "status": "passed"
             },
             "line": 31,
             "name": "User types elif in to name box",
@@ -355,8 +351,8 @@
           },
           {
             "result": {
-              "duration": 4333,
-              "status": "skipped"
+              "duration": 3133364200,
+              "status": "passed"
             },
             "line": 32,
             "name": "User clicks save button",
@@ -367,8 +363,8 @@
           },
           {
             "result": {
-              "duration": 4232,
-              "status": "skipped"
+              "duration": 3160122401,
+              "status": "passed"
             },
             "line": 33,
             "name": "User should see elif in the customer field",
@@ -413,9 +409,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ms-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:14a8:4e35:f430:c45%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zq/fr1t2l9x09n...}, goog:chromeOptions: {debuggerAddress: localhost:61745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 152d42584440310a1e5bff0f205a48e5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat step_definitions.FilterFunctionality_StepDefs.user_is_on_the_Landing_page(FilterFunctionality_StepDefs.java:28)\n\tat ✽.User is on the Landing page(src/test/resources/features/filterFunctionality.feature:5)\n",
-              "duration": 18264726,
-              "status": "failed"
+              "duration": 6081684699,
+              "status": "passed"
             },
             "line": 5,
             "name": "User is on the Landing page",
@@ -430,7 +425,7 @@
         "before": [
           {
             "result": {
-              "duration": 56288,
+              "duration": 103000,
               "status": "passed"
             },
             "match": {
@@ -445,9 +440,8 @@
         "after": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ms-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:14a8:4e35:f430:c45%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zq/fr1t2l9x09n...}, goog:chromeOptions: {debuggerAddress: localhost:61745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 152d42584440310a1e5bff0f205a48e5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\n\tat step_definitions.Hooks.tearDown(Hooks.java:30)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.TestCase.run(TestCase.java:48)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)\n",
-              "duration": 2148132,
-              "status": "failed"
+              "duration": 612982299,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -459,8 +453,8 @@
         "steps": [
           {
             "result": {
-              "duration": 13056,
-              "status": "skipped"
+              "duration": 2272084400,
+              "status": "passed"
             },
             "line": 9,
             "name": "User clicks Repairs module",
@@ -471,8 +465,8 @@
           },
           {
             "result": {
-              "duration": 5755,
-              "status": "skipped"
+              "duration": 3176034700,
+              "status": "passed"
             },
             "line": 10,
             "name": "User clicks Filters button",
@@ -483,8 +477,8 @@
           },
           {
             "result": {
-              "duration": 6587,
-              "status": "skipped"
+              "duration": 71450099,
+              "status": "passed"
             },
             "line": 11,
             "name": "User selects Quotations filter",
@@ -495,8 +489,8 @@
           },
           {
             "result": {
-              "duration": 6317,
-              "status": "skipped"
+              "duration": 3206128800,
+              "status": "passed"
             },
             "line": 12,
             "name": "User should be able to see only corresponding to Quotations filter repair orders in the list",
@@ -507,8 +501,8 @@
           },
           {
             "result": {
-              "duration": 4438,
-              "status": "skipped"
+              "duration": 20515500,
+              "status": "passed"
             },
             "line": 13,
             "name": "User should see Quotations filter in the Search box",
@@ -519,8 +513,8 @@
           },
           {
             "result": {
-              "duration": 5714,
-              "status": "skipped"
+              "duration": 30652800,
+              "status": "passed"
             },
             "line": 14,
             "name": "User should be able to see Quotations filter as selected in Filters dropdown menu",
@@ -531,8 +525,8 @@
           },
           {
             "result": {
-              "duration": 4427,
-              "status": "skipped"
+              "duration": 56522400,
+              "status": "passed"
             },
             "line": 15,
             "name": "User deselects Quotations filter",
@@ -543,8 +537,8 @@
           },
           {
             "result": {
-              "duration": 5439,
-              "status": "skipped"
+              "duration": 17632800,
+              "status": "passed"
             },
             "line": 16,
             "name": "User should be able to see all repair orders in the list",
@@ -555,8 +549,8 @@
           },
           {
             "result": {
-              "duration": 4641,
-              "status": "skipped"
+              "duration": 10047615301,
+              "status": "passed"
             },
             "line": 17,
             "name": "User should not see Quotations filter in the Search box",
@@ -567,8 +561,8 @@
           },
           {
             "result": {
-              "duration": 5536,
-              "status": "skipped"
+              "duration": 29049899,
+              "status": "passed"
             },
             "line": 18,
             "name": "User should be able to see Quotations filter as deselected in Filters dropdown menu",
@@ -593,9 +587,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ms-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:14a8:4e35:f430:c45%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zq/fr1t2l9x09n...}, goog:chromeOptions: {debuggerAddress: localhost:61745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 152d42584440310a1e5bff0f205a48e5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat step_definitions.FilterFunctionality_StepDefs.user_is_on_the_Landing_page(FilterFunctionality_StepDefs.java:28)\n\tat ✽.User is on the Landing page(src/test/resources/features/filterFunctionality.feature:5)\n",
-              "duration": 6478124,
-              "status": "failed"
+              "duration": 5610990800,
+              "status": "passed"
             },
             "line": 5,
             "name": "User is on the Landing page",
@@ -610,7 +603,7 @@
         "before": [
           {
             "result": {
-              "duration": 62943,
+              "duration": 97500,
               "status": "passed"
             },
             "match": {
@@ -625,9 +618,8 @@
         "after": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ms-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:14a8:4e35:f430:c45%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zq/fr1t2l9x09n...}, goog:chromeOptions: {debuggerAddress: localhost:61745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 152d42584440310a1e5bff0f205a48e5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\n\tat step_definitions.Hooks.tearDown(Hooks.java:30)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.TestCase.run(TestCase.java:48)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)\n",
-              "duration": 4422564,
-              "status": "failed"
+              "duration": 613523499,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -639,8 +631,8 @@
         "steps": [
           {
             "result": {
-              "duration": 6934,
-              "status": "skipped"
+              "duration": 2166155999,
+              "status": "passed"
             },
             "line": 22,
             "name": "User clicks Repairs module",
@@ -651,8 +643,8 @@
           },
           {
             "result": {
-              "duration": 5517,
-              "status": "skipped"
+              "duration": 3181491399,
+              "status": "passed"
             },
             "line": 23,
             "name": "User clicks Filters button",
@@ -663,8 +655,8 @@
           },
           {
             "result": {
-              "duration": 4953,
-              "status": "skipped"
+              "duration": 68450399,
+              "status": "passed"
             },
             "line": 24,
             "name": "User selects Confirmed filter",
@@ -675,8 +667,8 @@
           },
           {
             "result": {
-              "duration": 4515,
-              "status": "skipped"
+              "duration": 3147017900,
+              "status": "passed"
             },
             "line": 25,
             "name": "User should be able to see only corresponding to Confirmed filter repair orders in the list",
@@ -687,8 +679,8 @@
           },
           {
             "result": {
-              "duration": 4418,
-              "status": "skipped"
+              "duration": 33742800,
+              "status": "passed"
             },
             "line": 26,
             "name": "User should see Confirmed filter in the Search box",
@@ -699,8 +691,8 @@
           },
           {
             "result": {
-              "duration": 4373,
-              "status": "skipped"
+              "duration": 15896700,
+              "status": "passed"
             },
             "line": 27,
             "name": "User should be able to see Confirmed filter as selected in Filters dropdown menu",
@@ -711,8 +703,8 @@
           },
           {
             "result": {
-              "duration": 9531,
-              "status": "skipped"
+              "duration": 31093000,
+              "status": "passed"
             },
             "line": 28,
             "name": "User deselects Confirmed filter",
@@ -723,8 +715,8 @@
           },
           {
             "result": {
-              "duration": 4539,
-              "status": "skipped"
+              "duration": 33419100,
+              "status": "passed"
             },
             "line": 29,
             "name": "User should be able to see all repair orders in the list",
@@ -735,8 +727,8 @@
           },
           {
             "result": {
-              "duration": 4493,
-              "status": "skipped"
+              "duration": 10019411401,
+              "status": "passed"
             },
             "line": 30,
             "name": "User should not see Confirmed filter in the Search box",
@@ -747,8 +739,8 @@
           },
           {
             "result": {
-              "duration": 4386,
-              "status": "skipped"
+              "duration": 53801900,
+              "status": "passed"
             },
             "line": 31,
             "name": "User should be able to see Confirmed filter as deselected in Filters dropdown menu",
@@ -773,9 +765,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ms-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:14a8:4e35:f430:c45%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zq/fr1t2l9x09n...}, goog:chromeOptions: {debuggerAddress: localhost:61745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 152d42584440310a1e5bff0f205a48e5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat step_definitions.FilterFunctionality_StepDefs.user_is_on_the_Landing_page(FilterFunctionality_StepDefs.java:28)\n\tat ✽.User is on the Landing page(src/test/resources/features/filterFunctionality.feature:5)\n",
-              "duration": 6910901,
-              "status": "failed"
+              "duration": 5731855101,
+              "status": "passed"
             },
             "line": 5,
             "name": "User is on the Landing page",
@@ -790,7 +781,7 @@
         "before": [
           {
             "result": {
-              "duration": 83581,
+              "duration": 92600,
               "status": "passed"
             },
             "match": {
@@ -805,9 +796,8 @@
         "after": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ms-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:14a8:4e35:f430:c45%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zq/fr1t2l9x09n...}, goog:chromeOptions: {debuggerAddress: localhost:61745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 152d42584440310a1e5bff0f205a48e5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\n\tat step_definitions.Hooks.tearDown(Hooks.java:30)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.TestCase.run(TestCase.java:48)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)\n",
-              "duration": 2425056,
-              "status": "failed"
+              "duration": 605234501,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -819,8 +809,8 @@
         "steps": [
           {
             "result": {
-              "duration": 5671,
-              "status": "skipped"
+              "duration": 2332159700,
+              "status": "passed"
             },
             "line": 35,
             "name": "User clicks Repairs module",
@@ -831,8 +821,8 @@
           },
           {
             "result": {
-              "duration": 4209,
-              "status": "skipped"
+              "duration": 3129250200,
+              "status": "passed"
             },
             "line": 36,
             "name": "User clicks Filters button",
@@ -843,8 +833,8 @@
           },
           {
             "result": {
-              "duration": 5510,
-              "status": "skipped"
+              "duration": 67816399,
+              "status": "passed"
             },
             "line": 37,
             "name": "User selects Ready to Repair filter",
@@ -855,8 +845,8 @@
           },
           {
             "result": {
-              "duration": 3756,
-              "status": "skipped"
+              "duration": 3109391700,
+              "status": "passed"
             },
             "line": 38,
             "name": "User should be able to see only corresponding to Ready to Repair filter repair orders in the list",
@@ -867,8 +857,8 @@
           },
           {
             "result": {
-              "duration": 4743,
-              "status": "skipped"
+              "duration": 32805100,
+              "status": "passed"
             },
             "line": 39,
             "name": "User should see Ready to Repair filter in the Search box",
@@ -879,8 +869,8 @@
           },
           {
             "result": {
-              "duration": 4795,
-              "status": "skipped"
+              "duration": 26993200,
+              "status": "passed"
             },
             "line": 40,
             "name": "User should be able to see Ready to Repair filter as selected in Filters dropdown menu",
@@ -891,8 +881,8 @@
           },
           {
             "result": {
-              "duration": 3696,
-              "status": "skipped"
+              "duration": 71688400,
+              "status": "passed"
             },
             "line": 41,
             "name": "User deselects Ready to Repair filter",
@@ -903,8 +893,8 @@
           },
           {
             "result": {
-              "duration": 3698,
-              "status": "skipped"
+              "duration": 17968100,
+              "status": "passed"
             },
             "line": 42,
             "name": "User should be able to see all repair orders in the list",
@@ -915,8 +905,8 @@
           },
           {
             "result": {
-              "duration": 3777,
-              "status": "skipped"
+              "duration": 10024389000,
+              "status": "passed"
             },
             "line": 43,
             "name": "User should not see Ready to Repair filter in the Search box",
@@ -927,8 +917,8 @@
           },
           {
             "result": {
-              "duration": 3709,
-              "status": "skipped"
+              "duration": 54791201,
+              "status": "passed"
             },
             "line": 44,
             "name": "User should be able to see Ready to Repair filter as deselected in Filters dropdown menu",
@@ -959,7 +949,7 @@
         "before": [
           {
             "result": {
-              "duration": 58770,
+              "duration": 113400,
               "status": "passed"
             },
             "match": {
@@ -974,9 +964,8 @@
         "after": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ms-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:14a8:4e35:f430:c45%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zq/fr1t2l9x09n...}, goog:chromeOptions: {debuggerAddress: localhost:61745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 152d42584440310a1e5bff0f205a48e5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\n\tat step_definitions.Hooks.tearDown(Hooks.java:30)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\n\tat cucumber.runner.TestCase.run(TestCase.java:48)\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)\n",
-              "duration": 2685612,
-              "status": "failed"
+              "duration": 645000701,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -988,9 +977,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ms-MacBook-Air.local\u0027, ip: \u0027fe80:0:0:0:14a8:4e35:f430:c45%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u002713.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/zq/fr1t2l9x09n...}, goog:chromeOptions: {debuggerAddress: localhost:61745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 152d42584440310a1e5bff0f205a48e5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat step_definitions.CustomerField_StepDefs.user_is_logged_in_to_briteErp_Login_Page(CustomerField_StepDefs.java:27)\n\tat ✽.User is logged in to briteErp Login Page(src/test/resources/features/productToRepair.feature:8)\n",
-              "duration": 5886164,
-              "status": "failed"
+              "duration": 8856844100,
+              "status": "passed"
             },
             "line": 8,
             "name": "User is logged in to briteErp Login Page",
@@ -1001,8 +989,8 @@
           },
           {
             "result": {
-              "duration": 8447,
-              "status": "skipped"
+              "duration": 3102544299,
+              "status": "passed"
             },
             "line": 9,
             "name": "User clicks to Repair module on Landing Page",
@@ -1013,8 +1001,8 @@
           },
           {
             "result": {
-              "duration": 6380,
-              "status": "skipped"
+              "duration": 5111872800,
+              "status": "passed"
             },
             "line": 10,
             "name": "User click to Create button",
@@ -1025,8 +1013,8 @@
           },
           {
             "result": {
-              "duration": 4893,
-              "status": "skipped"
+              "duration": 3168462201,
+              "status": "passed"
             },
             "line": 11,
             "name": "User click to ProductToRepair button",
@@ -1037,8 +1025,8 @@
           },
           {
             "result": {
-              "duration": 4161,
-              "status": "skipped"
+              "duration": 102172701,
+              "status": "passed"
             },
             "line": 12,
             "name": "User click to SearchMore button",
@@ -1049,8 +1037,8 @@
           },
           {
             "result": {
-              "duration": 5671,
-              "status": "skipped"
+              "duration": 3181632900,
+              "status": "passed"
             },
             "line": 13,
             "name": "User should be able to see a list of products",
@@ -1061,8 +1049,8 @@
           },
           {
             "result": {
-              "duration": 3963,
-              "status": "skipped"
+              "duration": 6247103299,
+              "status": "passed"
             },
             "line": 14,
             "name": "User click to Create/Edit button",
@@ -1073,8 +1061,8 @@
           },
           {
             "result": {
-              "duration": 3781,
-              "status": "skipped"
+              "duration": 3100768400,
+              "status": "passed"
             },
             "line": 15,
             "name": "User should see grey text \"Product name\"",
@@ -1091,8 +1079,8 @@
           },
           {
             "result": {
-              "duration": 3930,
-              "status": "skipped"
+              "duration": 204820200,
+              "status": "passed"
             },
             "line": 16,
             "name": "User should be able to enter his name",
@@ -1103,8 +1091,8 @@
           },
           {
             "result": {
-              "duration": 3820,
-              "status": "skipped"
+              "duration": 101478500,
+              "status": "passed"
             },
             "line": 17,
             "name": "User should be able to choose a ProductType",
@@ -1115,8 +1103,8 @@
           },
           {
             "result": {
-              "duration": 3727,
-              "status": "skipped"
+              "duration": 3186272501,
+              "status": "passed"
             },
             "line": 18,
             "name": "User should be able to enter an InternalReference",
@@ -1127,8 +1115,8 @@
           },
           {
             "result": {
-              "duration": 3622,
-              "status": "skipped"
+              "duration": 114591300,
+              "status": "passed"
             },
             "line": 19,
             "name": "User should be able to enter a Barecode",
@@ -1139,8 +1127,8 @@
           },
           {
             "result": {
-              "duration": 3980,
-              "status": "skipped"
+              "duration": 3050195800,
+              "status": "passed"
             },
             "line": 20,
             "name": "User should be able to choose a Category",
