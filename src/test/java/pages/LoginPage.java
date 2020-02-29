@@ -36,4 +36,21 @@ public class LoginPage {
     @FindBy (xpath = "//button[@type=\"submit\"]")
     public WebElement submitButton;
 
+
+
+
+
+//-------------------------------------------------------------------------------------------------
+
+//Aiperi
+
+    @FindBy(xpath = "/html/body/div/main/div/form/div[1]/input")
+    public WebElement login;
+
+    @FindBy(xpath = "/html/body/div/main/div/form/div[2]/input")
+    public WebElement password;
+
+    @FindBy(xpath = "/html/body/div/main/div/form/div[3]/button")
+    public WebElement clickButton;
+
 }
