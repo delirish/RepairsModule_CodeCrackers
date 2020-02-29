@@ -1,46 +1,103 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="23.866999">
-    <testcase classname="Repairs Module Verification" name="Current location &quot;Create and edit&quot; verification" time="23.766361">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="208.614336">
+    <testcase classname="Repairs Module Verification" name="Customer Dropdown Verification" time="25.273896">
         <system-out>
-            <![CDATA[Given User is on Landing page...............................................passed
-When User click to repairs module...........................................passed
-And User click create button................................................passed
-And User click current location box.........................................passed
-And User select create and edit from dropdown list..........................passed
-Then User sees pop-up page..................................................passed
+            <![CDATA[Given User is logged in to briteErp Login Page..............................passed
+And User clicks to Repair module on Landing Page............................passed
+And User click to Create button.............................................passed
+And User types "elif" to Customer field.....................................passed
+Then User should see "elif" in the dropdown.................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Repairs Module Verification" name="Current location &quot;Search more&quot; verification" time="0.100638">
-        <failure message="org.openqa.selenium.NoSuchSessionException: invalid session id&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Anvars-MacBook-Pro.local', ip: 'fe80:0:0:0:83:14fe:b3f5:81c5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '11.0.4'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/0r/rrs1rwd94h3...}, goog:chromeOptions: {debuggerAddress: localhost:60765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d12dd66c163f9b184f4aaec90600548e&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#10;&#9;at step_definitions.CurrentLocation_StepDefs.user_is_on_Landing_page(CurrentLocation_StepDefs.java:23)&#10;&#9;at ✽.User is on Landing page(src/test/resources/features/currentLocation.feature:18)&#10;">
-            <![CDATA[Given User is on Landing page...............................................failed
-When User click to repairs module...........................................skipped
-And User click create button................................................skipped
-And User click current location box.........................................skipped
-And User select search more from dropdown list..............................skipped
-Then User sees header Search: Delivery Location.............................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Anvars-MacBook-Pro.local', ip: 'fe80:0:0:0:83:14fe:b3f5:81c5%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '11.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/0r/rrs1rwd94h3...}, goog:chromeOptions: {debuggerAddress: localhost:60765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d12dd66c163f9b184f4aaec90600548e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at step_definitions.CurrentLocation_StepDefs.user_is_on_Landing_page(CurrentLocation_StepDefs.java:23)
-	at ✽.User is on Landing page(src/test/resources/features/currentLocation.feature:18)
+    <testcase classname="Repairs Module Verification" name="Customer : Search header verification" time="32.11905">
+        <system-out>
+            <![CDATA[Given User is logged in to briteErp Login Page..............................passed
+And User clicks to Repair module on Landing Page............................passed
+And User click to Create button.............................................passed
+And User cliks to customer field............................................passed
+And User cliks Search more field............................................passed
+Then User should see Search:customer header.................................passed
 ]]>
-        </failure>
+        </system-out>
+    </testcase>
+    <testcase classname="Repairs Module Verification" name="Create and edit functionality verification" time="35.241757">
+        <system-out>
+            <![CDATA[Given User is logged in to briteErp Login Page..............................passed
+And User clicks to Repair module on Landing Page............................passed
+And User click to Create button.............................................passed
+And User cliks to customer field............................................passed
+And User clicks create and edit field.......................................passed
+And User types elif in to name box..........................................passed
+And User clicks save button.................................................passed
+Then User should see elif in the customer field.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Filter Functionality for Search Repair Orders Verification" name="COD-196 Quotations Filter for Repair Orders Verification" time="25.623483">
+        <system-out>
+            <![CDATA[Given User is on the Landing page...........................................passed
+When User clicks Repairs module.............................................passed
+And User clicks Filters button..............................................passed
+And User selects Quotations filter..........................................passed
+Then User should be able to see only corresponding to Quotations filter repair orders in the list.passed
+And User should see Quotations filter in the Search box.....................passed
+And User should be able to see Quotations filter as selected in Filters dropdown menu.passed
+When User deselects Quotations filter.......................................passed
+Then User should be able to see all repair orders in the list...............passed
+And User should not see Quotations filter in the Search box.................passed
+And User should be able to see Quotations filter as deselected in Filters dropdown menu.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Filter Functionality for Search Repair Orders Verification" name="COD-223 Confirmed Filter for Repair Orders Verification" time="24.975816">
+        <system-out>
+            <![CDATA[Given User is on the Landing page...........................................passed
+When User clicks Repairs module.............................................passed
+And User clicks Filters button..............................................passed
+And User selects Confirmed filter...........................................passed
+Then User should be able to see only corresponding to Confirmed filter repair orders in the list.passed
+And User should see Confirmed filter in the Search box......................passed
+And User should be able to see Confirmed filter as selected in Filters dropdown menu.passed
+When User deselects Confirmed filter........................................passed
+Then User should be able to see all repair orders in the list...............passed
+And User should not see Confirmed filter in the Search box..................passed
+And User should be able to see Confirmed filter as deselected in Filters dropdown menu.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Filter Functionality for Search Repair Orders Verification" name="COD-226 Ready to Repair Filter for Repair Orders Verification" time="25.205211">
+        <system-out>
+            <![CDATA[Given User is on the Landing page...........................................passed
+When User clicks Repairs module.............................................passed
+And User clicks Filters button..............................................passed
+And User selects Ready to Repair filter.....................................passed
+Then User should be able to see only corresponding to Ready to Repair filter repair orders in the list.passed
+And User should see Ready to Repair filter in the Search box................passed
+And User should be able to see Ready to Repair filter as selected in Filters dropdown menu.passed
+When User deselects Ready to Repair filter..................................passed
+Then User should be able to see all repair orders in the list...............passed
+And User should not see Ready to Repair filter in the Search box............passed
+And User should be able to see Ready to Repair filter as deselected in Filters dropdown menu.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Product to repair feature" name="_2" time="40.175123">
+        <system-out>
+            <![CDATA[Given User is logged in to briteErp Login Page..............................passed
+And User clicks to Repair module on Landing Page............................passed
+And User click to Create button.............................................passed
+And User click to ProductToRepair button....................................passed
+And User click to SearchMore button.........................................passed
+And User should be able to see a list of products...........................passed
+And User click to Create/Edit button........................................passed
+And User should see grey text "Product name"................................passed
+And User should be able to enter his name...................................passed
+And User should be able to choose a ProductType.............................passed
+And User should be able to enter an InternalReference.......................passed
+And User should be able to enter a Barecode.................................passed
+Then User should be able to choose a Category...............................passed
+]]>
+        </system-out>
     </testcase>
 </testsuite>
