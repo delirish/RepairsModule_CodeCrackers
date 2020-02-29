@@ -32,7 +32,6 @@ public class CurrentLocation_StepDefs {
 
     @When("User click to repairs module")
     public void user_click_to_repairs_module() throws InterruptedException {
-        Thread.sleep(5000);
         landingPage.repairsModuleButton.click();
         Thread.sleep(3000);
     }
