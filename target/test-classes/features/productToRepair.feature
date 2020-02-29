@@ -1,8 +1,9 @@
+@smoke
 Feature:Product to repair feature
   Agile story: As a User I should be able to access repairs list, search for repair, create/edit/delete a repair
 
 
-@smoke
+
 Scenario:
 Given User is logged in to briteErp Login Page
 And User clicks to Repair module on Landing Page
