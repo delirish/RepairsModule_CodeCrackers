@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: Filter Functionality for Search Repair Orders Verification
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 78.632 s <<< FAILURE! - in Filter Functionality for Search Repair Orders Verification
+COD-223 Confirmed Filter for Repair Orders Verification(Filter Functionality for Search Repair Orders Verification)  Time elapsed: 24.203 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@data-toggle='dropdown'])[3]"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KGIECL1', ip: '10.0.0.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\iryna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a599a6eb9efd4f0b4c5722d22086ece5
+*** Element info: {Using=xpath, value=(//button[@data-toggle='dropdown'])[3]}
+
+COD-226 Ready to Repair Filter for Repair Orders Verification(Filter Functionality for Search Repair Orders Verification)  Time elapsed: 25.105 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@data-toggle='dropdown'])[3]"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KGIECL1', ip: '10.0.0.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\iryna\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e9d5065d14b2fa55abfb8affe5bc7b50
+*** Element info: {Using=xpath, value=(//button[@data-toggle='dropdown'])[3]}
+
