@@ -51,9 +51,9 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                47,
-                2,
-                16,
+                52,
+                0,
+                0,
                 0,
                 0
             ],
@@ -94,7 +94,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 65) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 52) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -107,8 +107,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                5,
-                2
+                6,
+                0
             ],
             backgroundColor: [
                 "#00B000",
@@ -144,7 +144,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 7) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 6) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -158,7 +158,7 @@ $(document).ready(function() {
         datasets: [{
             data: [
                    2,
-                   1
+                   0
                ],
                backgroundColor: [
                 "#00B000",
@@ -191,7 +191,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 3) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 2) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -234,7 +234,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
               <td>1</td>
-            <td>29 Feb 2020, 21:07</td>
+            <td>29 Feb 2020, 22:04</td>
     </tr>
   </tbody>
 </table>
@@ -329,7 +329,24 @@ $(document).ready(function() {
 
   <tbody>
           <tr>
-        <td class="tagname"><a href="report-feature_151232862.html">Repairs Module Verification</a></td>
+        <td class="tagname"><a href="report-feature_777036932.html">Filter Functionality for Search Repair Orders Verification</a></td>
+
+        <td      class="passed"    >33</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">33</td>
+
+        <td  class="passed"    >3</td>
+        <td >0</td>
+        <td class="total">3</td>
+
+        <td class="duration" data-value="79314522290">1:19.314</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="report-feature_1_151232862.html">Repairs Module Verification</a></td>
 
         <td      class="passed"    >19</td>
         <td >0</td>
@@ -342,41 +359,7 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">3</td>
 
-        <td class="duration" data-value="93139644900">1:33.139</td>
-        <td class="passed">Passed</td>
-      </tr>
-          <tr>
-        <td class="tagname"><a href="report-feature_1_777036932.html">Filter Functionality for Search Repair Orders Verification</a></td>
-
-        <td      class="passed"    >15</td>
-        <td      class="failed"    >2</td>
-        <td     class="skipped"   >16</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">33</td>
-
-        <td  class="passed"    >1</td>
-        <td  class="failed"    >2</td>
-        <td class="total">3</td>
-
-        <td class="duration" data-value="75765686100">1:15.765</td>
-        <td class="failed">Failed</td>
-      </tr>
-          <tr>
-        <td class="tagname"><a href="report-feature_2_3199149640.html">Product to repair feature</a></td>
-
-        <td      class="passed"    >13</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td >0</td>
-        <td class="total">13</td>
-
-        <td  class="passed"    >1</td>
-        <td >0</td>
-        <td class="total">1</td>
-
-        <td class="duration" data-value="40335861400">40.335</td>
+        <td class="duration" data-value="91677711762">1:31.677</td>
         <td class="passed">Passed</td>
       </tr>
       </tbody>
@@ -384,33 +367,33 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>47</td>
-      <td>2</td>
-      <td>16</td>
+      <td>52</td>
       <td>0</td>
       <td>0</td>
-      <td>65</td>
+      <td>0</td>
+      <td>0</td>
+      <td>52</td>
 
-      <td>5</td>
+      <td>6</td>
+      <td>0</td>
+      <td>6</td>
+
+      <td class="duration">2:50.992</td>
       <td>2</td>
-      <td>7</td>
-
-      <td class="duration">3:29.241</td>
-      <td>3</td>
     </tr>
     <tr>
       <td></td>
-            <td>72.31%</td>
-      <td>3.08%</td>
-      <td>24.62%</td>
+            <td>100.00%</td>
+      <td>0.00%</td>
+      <td>0.00%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
-      <td>71.43%</td>
-      <td>28.57%</td>
+      <td>100.00%</td>
+      <td>0.00%</td>
       <td></td>
       <td></td>
-      <td>66.67%</td>
+      <td>100.00%</td>
     </tr>
   </tfoot>
 </table>
