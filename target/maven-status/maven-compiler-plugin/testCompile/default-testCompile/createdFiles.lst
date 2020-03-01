@@ -1,16 +1,1 @@
-step_definitions\Hooks.class
-step_definitions\FilterFunctionality_StepDefs.class
-pages\LoginPage.class
-runners\FilterFunctionParallelRunner.class
-utilities\Config.class
-utilities\Driver.class
-pages\RepairsModulePage.class
-pages\CreateNewOrderPage.class
-utilities\SeleniumUtils.class
-pages\CreateFeaturePage.class
-step_definitions\CustomerField_StepDefs.class
-step_definitions\CurrentLocation_StepDefs.class
-pages\CustomerFieldPage.class
-pages\LandingPage.class
-runners\CukesRunner.class
-step_definitions\ProductToRepair_StepDefs.class
+runners/CustomFunctionParallelRunner.class
