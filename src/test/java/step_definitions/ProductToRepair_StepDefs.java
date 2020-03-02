@@ -12,6 +12,7 @@ public class ProductToRepair_StepDefs {
     RepairsModulePage repairsModulePage = new RepairsModulePage();
     Faker faker = new Faker();
 
+
     @Given("User click to ProductToRepair button")
     public void user_click_to_ProductToRepair_button() throws InterruptedException {
         repairsModulePage.productRepairButton.click();
