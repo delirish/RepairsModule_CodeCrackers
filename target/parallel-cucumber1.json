@@ -1,0 +1,547 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7565884262,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Landing page",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_is_on_the_Landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 654495,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "COD-196 Quotations Filter for Repair Orders Verification",
+        "description": "",
+        "id": "filter-functionality-for-search-repair-orders-verification;cod-196-quotations-filter-for-repair-orders-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 86664463,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2569933226,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks Repairs module",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_clicks_Repairs_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4140190263,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks Filters button",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_clicks_Filters_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79833710,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User selects Quotations filter",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_selects_Quotations_filter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4155636375,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be able to see only corresponding to Quotations filter repair orders in the list",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_only_corresponding_to_Quotations_filter_repair_orders_in_the_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28756878,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should see Quotations filter in the Search box",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_see_Quotations_filter_in_the_Search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24888870,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should be able to see Quotations filter as selected in Filters dropdown menu",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_Quotations_filter_as_selected_in_Filters_dropdown_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69940862,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User deselects Quotations filter",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_deselects_Quotations_filter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24203901,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should be able to see all repair orders in the list",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_all_repair_orders_in_the_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10050372637,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should not see Quotations filter in the Search box",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_not_see_Quotations_filter_in_the_Search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48475978,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be able to see Quotations filter as deselected in Filters dropdown menu",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_Quotations_filter_as_deselected_in_Filters_dropdown_menu()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4697254380,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Landing page",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_is_on_the_Landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 49506,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "COD-223 Confirmed Filter for Repair Orders Verification",
+        "description": "",
+        "id": "filter-functionality-for-search-repair-orders-verification;cod-223-confirmed-filter-for-repair-orders-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 127442632,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2471272253,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks Repairs module",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_clicks_Repairs_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4138955918,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks Filters button",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_clicks_Filters_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83836929,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User selects Confirmed filter",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_selects_Confirmed_filter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4079337179,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should be able to see only corresponding to Confirmed filter repair orders in the list",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_only_corresponding_to_Confirmed_filter_repair_orders_in_the_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24798239,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should see Confirmed filter in the Search box",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_see_Confirmed_filter_in_the_Search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28150573,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should be able to see Confirmed filter as selected in Filters dropdown menu",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_Confirmed_filter_as_selected_in_Filters_dropdown_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52782636,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User deselects Confirmed filter",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_deselects_Confirmed_filter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24385096,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should be able to see all repair orders in the list",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_all_repair_orders_in_the_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10051556965,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should not see Confirmed filter in the Search box",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_not_see_Confirmed_filter_in_the_Search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20780004,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User should be able to see Confirmed filter as deselected in Filters dropdown menu",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_Confirmed_filter_as_deselected_in_Filters_dropdown_menu()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4604479568,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Landing page",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_is_on_the_Landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 53217,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "COD-226 Ready to Repair Filter for Repair Orders Verification",
+        "description": "",
+        "id": "filter-functionality-for-search-repair-orders-verification;cod-226-ready-to-repair-filter-for-repair-orders-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 89764631,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2825587152,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User clicks Repairs module",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_clicks_Repairs_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4130750081,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User clicks Filters button",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_clicks_Filters_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87560143,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User selects Ready to Repair filter",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_selects_Ready_to_Repair_filter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3056366862,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User should be able to see only corresponding to Ready to Repair filter repair orders in the list",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_only_corresponding_to_Ready_to_Repair_filter_repair_orders_in_the_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30270127,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User should see Ready to Repair filter in the Search box",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_see_Ready_to_Repair_filter_in_the_Search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24761267,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User should be able to see Ready to Repair filter as selected in Filters dropdown menu",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_Ready_to_Repair_filter_as_selected_in_Filters_dropdown_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58234659,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User deselects Ready to Repair filter",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_deselects_Ready_to_Repair_filter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22923810,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User should be able to see all repair orders in the list",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_all_repair_orders_in_the_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10013528350,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User should not see Ready to Repair filter in the Search box",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_not_see_Ready_to_Repair_filter_in_the_Search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28833137,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User should be able to see Ready to Repair filter as deselected in Filters dropdown menu",
+            "match": {
+              "location": "FilterFunctionality_StepDefs.user_should_be_able_to_see_Ready_to_Repair_filter_as_deselected_in_Filters_dropdown_menu()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Filter Functionality for Search Repair Orders Verification",
+    "description": "  Agile story: As a User I should be able to filter the repair orders",
+    "id": "filter-functionality-for-search-repair-orders-verification",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/filterFunctionality.feature",
+    "tags": []
+  }
+]
