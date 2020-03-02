@@ -12,6 +12,7 @@ import utilities.Config;
 import utilities.Driver;
 
 public class CurrentLocation_StepDefs {
+    
     LoginPage loginPage = new LoginPage();
     LandingPage landingPage = new LandingPage();
     RepairsModulePage repairsModulePage = new RepairsModulePage();

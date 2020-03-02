@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: Filter Functionality for Search Repair Orders Verification
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 79.629 s - in Filter Functionality for Search Repair Orders Verification

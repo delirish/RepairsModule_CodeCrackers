@@ -1,6 +1,7 @@
 package step_definitions;
 
 import com.github.javafaker.Faker;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
@@ -77,5 +78,6 @@ public class ProductToRepair_StepDefs {
         System.out.println("Checking if Category List is empty...");
         Assert.assertFalse("Category List is EMPTY. Test FAILED",repairsModulePage.categoryList.isEmpty());
     }
+
 
 }
