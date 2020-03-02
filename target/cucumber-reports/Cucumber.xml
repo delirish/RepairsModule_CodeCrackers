@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="208.614336">
-    <testcase classname="Repairs Module Verification" name="Customer Dropdown Verification" time="25.273896">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="184.539715">
+    <testcase classname="Repairs Module Verification" name="Customer Dropdown Verification" time="21.368841">
         <system-out>
             <![CDATA[Given User is logged in to briteErp Login Page..............................passed
 And User clicks to Repair module on Landing Page............................passed
@@ -10,7 +10,7 @@ Then User should see "elif" in the dropdown.................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Repairs Module Verification" name="Customer : Search header verification" time="32.11905">
+    <testcase classname="Repairs Module Verification" name="Customer : Search header verification" time="28.86223">
         <system-out>
             <![CDATA[Given User is logged in to briteErp Login Page..............................passed
 And User clicks to Repair module on Landing Page............................passed
@@ -21,7 +21,7 @@ Then User should see Search:customer header.................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Repairs Module Verification" name="Create and edit functionality verification" time="35.241757">
+    <testcase classname="Repairs Module Verification" name="Create and edit functionality verification" time="31.863661">
         <system-out>
             <![CDATA[Given User is logged in to briteErp Login Page..............................passed
 And User clicks to Repair module on Landing Page............................passed
@@ -34,7 +34,7 @@ Then User should see elif in the customer field.............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Filter Functionality for Search Repair Orders Verification" name="COD-196 Quotations Filter for Repair Orders Verification" time="25.623483">
+    <testcase classname="Filter Functionality for Search Repair Orders Verification" name="COD-196 Quotations Filter for Repair Orders Verification" time="21.839624">
         <system-out>
             <![CDATA[Given User is on the Landing page...........................................passed
 When User clicks Repairs module.............................................passed
@@ -50,7 +50,7 @@ And User should be able to see Quotations filter as deselected in Filters dropdo
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Filter Functionality for Search Repair Orders Verification" name="COD-223 Confirmed Filter for Repair Orders Verification" time="24.975816">
+    <testcase classname="Filter Functionality for Search Repair Orders Verification" name="COD-223 Confirmed Filter for Repair Orders Verification" time="21.990851">
         <system-out>
             <![CDATA[Given User is on the Landing page...........................................passed
 When User clicks Repairs module.............................................passed
@@ -66,7 +66,7 @@ And User should be able to see Confirmed filter as deselected in Filters dropdow
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Filter Functionality for Search Repair Orders Verification" name="COD-226 Ready to Repair Filter for Repair Orders Verification" time="25.205211">
+    <testcase classname="Filter Functionality for Search Repair Orders Verification" name="COD-226 Ready to Repair Filter for Repair Orders Verification" time="22.013348">
         <system-out>
             <![CDATA[Given User is on the Landing page...........................................passed
 When User clicks Repairs module.............................................passed
@@ -82,7 +82,7 @@ And User should be able to see Ready to Repair filter as deselected in Filters d
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Product to repair feature" name="_2" time="40.175123">
+    <testcase classname="Product to repair feature" name="_2" time="36.60116">
         <system-out>
             <![CDATA[Given User is logged in to briteErp Login Page..............................passed
 And User clicks to Repair module on Landing Page............................passed
