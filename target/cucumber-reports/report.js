@@ -1,164 +1,153 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/currentLocation.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/productToRepair.feature");
 formatter.feature({
-  "name": "Repairs Module Verification",
+  "name": "Product to repair feature",
   "description": "  Agile story: As a User I should be able to access repairs list, search for repair, create/edit/delete a repair",
-  "keyword": "Feature"
-});
-formatter.background({
-  "name": "Given User is on Landing page",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
 });
 formatter.scenario({
-  "name": "Current location \"Create and edit\" verification",
+  "name": "",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@test1"
+      "name": "@smoke"
     }
   ]
-});
-formatter.step({
-  "name": "User is on Landing page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "CurrentLocation_StepDefs.user_is_on_Landing_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User click to repairs module",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "CurrentLocation_StepDefs.user_click_to_repairs_module()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User click create button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CurrentLocation_StepDefs.user_click_create_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User click current location box",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CurrentLocation_StepDefs.user_click_current_location_box()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User select create and edit from dropdown list",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CurrentLocation_StepDefs.user_select_create_and_edit_from_dropdown_list()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User sees pop-up page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "CurrentLocation_StepDefs.user_sees_pop_up_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "Given User is on Landing page",
-  "description": "",
-  "keyword": "Background"
 });
 formatter.before({
   "status": "passed"
 });
-formatter.scenario({
-  "name": "Current location \"Search more\" verification",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@test2"
-    }
-  ]
-});
 formatter.step({
-  "name": "User is on Landing page",
+  "name": "User is logged in to briteErp Login Page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "CurrentLocation_StepDefs.user_is_on_Landing_page()"
+  "location": "CustomerField_StepDefs.user_is_logged_in_to_briteErp_Login_Page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User click to repairs module",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "CurrentLocation_StepDefs.user_click_to_repairs_module()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User click create button",
+  "name": "User clicks to Repair module on Landing Page",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CurrentLocation_StepDefs.user_click_create_button()"
+  "location": "CustomerField_StepDefs.user_clicks_to_Repair_module_on_Landing_Page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User click current location box",
+  "name": "User click to Create button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CurrentLocation_StepDefs.user_click_current_location_box()"
+  "location": "CustomerField_StepDefs.user_click_to_Create_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User select search more from dropdown list",
+  "name": "User click to ProductToRepair button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CurrentLocation_StepDefs.user_select_search_more_from_dropdown_list()"
+  "location": "ProductToRepair_StepDefs.user_click_to_ProductToRepair_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User sees header Search: Delivery Location",
+  "name": "User click to SearchMore button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProductToRepair_StepDefs.user_click_to_SearchMore_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to see a list of products",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProductToRepair_StepDefs.user_should_be_able_to_see_a_list_of_products()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User click to Create/Edit button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProductToRepair_StepDefs.user_click_to_Create_Edit_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should see grey text \"Product name\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProductToRepair_StepDefs.user_should_see_grey_text(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to enter his name",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProductToRepair_StepDefs.user_should_be_able_to_enter_his_name()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to choose a ProductType",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProductToRepair_StepDefs.user_should_be_able_to_choose_a_ProductType()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to enter an InternalReference",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProductToRepair_StepDefs.user_should_be_able_to_enter_an_InternalReference()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to enter a Barecode",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProductToRepair_StepDefs.user_should_be_able_to_enter_a_Barecode()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to choose a Category",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CurrentLocation_StepDefs.user_sees_header_Search_Delivery_Location()"
+  "location": "ProductToRepair_StepDefs.user_should_be_able_to_choose_a_Category()"
 });
 formatter.result({
   "status": "passed"
