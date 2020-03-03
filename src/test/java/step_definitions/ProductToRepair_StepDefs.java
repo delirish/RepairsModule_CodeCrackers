@@ -1,6 +1,7 @@
 package step_definitions;
 
 import com.github.javafaker.Faker;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
@@ -11,6 +12,7 @@ public class ProductToRepair_StepDefs {
 
     RepairsModulePage repairsModulePage = new RepairsModulePage();
     Faker faker = new Faker();
+
 
     @Given("User click to ProductToRepair button")
     public void user_click_to_ProductToRepair_button() throws InterruptedException {
@@ -76,5 +78,6 @@ public class ProductToRepair_StepDefs {
         System.out.println("Checking if Category List is empty...");
         Assert.assertFalse("Category List is EMPTY. Test FAILED",repairsModulePage.categoryList.isEmpty());
     }
+
 
 }

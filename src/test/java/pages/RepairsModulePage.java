@@ -84,8 +84,7 @@ public class RepairsModulePage {
 //--------------------------------------------------------------------------------------------
     //ANVAR
 
-    @FindBy(linkText = "Repairs")
-    public WebElement repairsModule;
+
 
     @FindBy(xpath = "//button[@class='btn btn-primary btn-sm o_list_button_add']")
     public WebElement RepairOrderCreateButton;
@@ -98,6 +97,12 @@ public class RepairsModulePage {
 
     @FindBy(xpath = "//a[contains(text(),'Search More...')]")
     public WebElement currentLocationSearchMore;
+
+    @FindBy(xpath = "//div[@class='o_form_view o_form_nosheet o_form_editable']")
+    public WebElement currentLocationCreateAndEditPagePopUp;
+
+    @FindBy(xpath = "(//input[@class='o_searchview_input'])[2]")
+    public WebElement currentLocationSearchMoreSearchPopUp;
 
 
 

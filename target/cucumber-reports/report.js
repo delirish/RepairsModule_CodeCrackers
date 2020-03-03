@@ -1,128 +1,153 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/repairOrders.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/productToRepair.feature");
 formatter.feature({
-  "name": "Repair orders verification.",
+  "name": "Product to repair feature",
   "description": "  Agile story: As a User I should be able to access repairs list, search for repair, create/edit/delete a repair",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@smoke1"
+      "name": "@smoke"
     }
   ]
 });
-formatter.background({
-  "name": "Given Manager is on Landing page",
+formatter.scenario({
+  "name": "",
   "description": "",
-  "keyword": "Background"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@smoke"
+    }
+  ]
 });
 formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "Manager is on Landing page",
+  "name": "User is logged in to briteErp Login Page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "RepairOrders_StepDefs.manager_is_on_Landing_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Check all checkboxes on Repair orders page on Repairs module.",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@smoke1"
-    }
-  ]
-});
-formatter.step({
-  "name": "Manager clicks Repairs module to go to Repair Orders.",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "RepairOrders_StepDefs.manager_clicks_Repairs_module_to_go_to_Repair_Orders()"
+  "location": "CustomerField_StepDefs.user_is_logged_in_to_briteErp_Login_Page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Manager clicks main checkbox to select all checkboxes under.",
+  "name": "User clicks to Repair module on Landing Page",
   "keyword": "And "
 });
 formatter.match({
-  "location": "RepairOrders_StepDefs.manager_clicks_main_checkbox_to_select_all_checkboxes_under()"
+  "location": "CustomerField_StepDefs.user_clicks_to_Repair_module_on_Landing_Page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Manager clicks main checkbox to deselect all selected checkboxes under.",
+  "name": "User click to Create button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "RepairOrders_StepDefs.manager_clicks_main_checkbox_to_deselect_all_selected_checkboxes_under()"
+  "location": "CustomerField_StepDefs.user_click_to_Create_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Manager clicks the checkbox to sort list of clients references.",
+  "name": "User click to ProductToRepair button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "RepairOrders_StepDefs.manager_clicks_the_checkbox_to_sort_list_of_clients_references()"
+  "location": "ProductToRepair_StepDefs.user_click_to_ProductToRepair_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Manager clicks the checkbox to sort list of Products to Repair.",
+  "name": "User click to SearchMore button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "RepairOrders_StepDefs.manager_clicks_the_checkbox_to_sort_list_of_Products_to_Repair()"
+  "location": "ProductToRepair_StepDefs.user_click_to_SearchMore_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Manager clicks the checkbox  to sort list of Customers.",
+  "name": "User should be able to see a list of products",
   "keyword": "And "
 });
 formatter.match({
-  "location": "RepairOrders_StepDefs.manager_clicks_the_checkbox_to_sort_list_of_Customers()"
+  "location": "ProductToRepair_StepDefs.user_should_be_able_to_see_a_list_of_products()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Manager clicks the checkbox to sort list of addresses to Deliver.",
+  "name": "User click to Create/Edit button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "RepairOrders_StepDefs.manager_clicks_the_checkbox_to_sort_list_of_addresses_to_Deliver()"
+  "location": "ProductToRepair_StepDefs.user_click_to_Create_Edit_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Manager clicks checkbox to sort Status of orders.",
+  "name": "User should see grey text \"Product name\"",
   "keyword": "And "
 });
 formatter.match({
-  "location": "RepairOrders_StepDefs.manager_clicks_checkbox_to_sort_Status_of_orders()"
+  "location": "ProductToRepair_StepDefs.user_should_see_grey_text(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Manager clicks the checkbox to sort Warranty Expiration dates.",
+  "name": "User should be able to enter his name",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProductToRepair_StepDefs.user_should_be_able_to_enter_his_name()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to choose a ProductType",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProductToRepair_StepDefs.user_should_be_able_to_choose_a_ProductType()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to enter an InternalReference",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProductToRepair_StepDefs.user_should_be_able_to_enter_an_InternalReference()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to enter a Barecode",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProductToRepair_StepDefs.user_should_be_able_to_enter_a_Barecode()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to choose a Category",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "RepairOrders_StepDefs.manager_clicks_the_checkbox_to_sort_Warranty_Expiration_dates()"
+  "location": "ProductToRepair_StepDefs.user_should_be_able_to_choose_a_Category()"
 });
 formatter.result({
   "status": "passed"

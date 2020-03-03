@@ -50,7 +50,7 @@ public class FilterFunctionality_StepDefs {
     @When("User clicks Filters button")
     public void user_clicks_Filters_button() throws InterruptedException {
 
-        Thread.sleep(3000);
+        Thread.sleep(4000);
 
         //verify if filters button is displayed:
         Assert.assertTrue("Filters button is not displayed. FAIL", repairsModulePage.filtersButton.isDisplayed());
@@ -82,7 +82,7 @@ public class FilterFunctionality_StepDefs {
         List<WebElement> filteredOrdersStatusList = repairsModulePage.quotationsListOfOrders;
 
         //wait until the filter is selected:
-        Thread.sleep(3000);
+        Thread.sleep(4000);
 
         //verify if list contains only filtered orders:
         for(WebElement element: filteredOrdersStatusList){
@@ -161,7 +161,7 @@ public class FilterFunctionality_StepDefs {
         List<WebElement> filteredOrdersStatusList = repairsModulePage.confirmedListOfOrders;
 
         //wait until the filter is selected:
-        Thread.sleep(3000);
+        Thread.sleep(4000);
 
         //verify if list contains only filtered orders:
         for(WebElement element: filteredOrdersStatusList){
