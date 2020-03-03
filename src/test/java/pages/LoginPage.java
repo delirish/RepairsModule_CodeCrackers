@@ -6,9 +6,9 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
 public class LoginPage {
-    public LoginPage(){
+    public LoginPage() {
 
-        PageFactory.initElements(Driver.getDriver(),this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
 
@@ -25,15 +25,16 @@ public class LoginPage {
     public WebElement logInButton;
 
 
-
-
-//---------------------------------------------------------------------------------------------------------------
+    //---------------------------------------------------------------------------------------------------------------
     //ELIF
     @FindBy(xpath = "//input[@id=\"login\"]")
     public WebElement eMailAdd;
     @FindBy(xpath = "//input[@id=\"password\"]")
     public WebElement passWord;
-    @FindBy (xpath = "//button[@type=\"submit\"]")
+    @FindBy(xpath = "//button[@type=\"submit\"]")
     public WebElement submitButton;
 
+
 }
+
+

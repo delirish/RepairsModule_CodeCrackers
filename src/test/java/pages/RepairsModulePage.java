@@ -111,6 +111,8 @@ public class RepairsModulePage {
 //--------------------------------------------------------------------------------------------------
     //AIPERI
 
+
+
     @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/table/thead/tr/th[1]")
     public WebElement selectAllCheckboxes;
 
